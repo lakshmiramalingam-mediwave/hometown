@@ -1,0 +1,42 @@
+body {
+    margin:0;
+    color: #82a5ca;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+#logo{
+   
+    background-image: url("town.jpg");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:10px 0px 0px 0px;
+}
+#title{
+    text-shadow: 0px 0px  4px 0px;
+}
+.container{
+    display:flex;
+    padding: 5px;
+    flex-wrap: nowrap;
+}
+.item{
+    margin: 12px;
+}
+.avatar{
+    width:150px;
+}
+.guide{
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #C1CAD1;
+    color: #443C66;
+    border-bottom: 6px solid #7C9196;
+    margin-top:20px;
+    
+}
